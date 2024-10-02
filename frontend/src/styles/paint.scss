@@ -1,0 +1,67 @@
+@import "global";
+.paint-canvas{
+  border: $border-main;
+  border-radius: $border-radius-base;
+  width: 640px;
+}
+.body-paint{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 1600px){
+    &{
+      flex-direction: column-reverse;
+    }
+  }
+}
+.menu-paint{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: $padding-base;
+  height: 480px;
+  min-width: 20%;
+  max-width: 100%;
+
+  border-radius: $border-radius-base;
+  background: $second-color;
+
+  padding: $padding-base;
+  @media screen and (max-width: 1600px){
+     &{
+       height: 64px;
+       width: 640px;
+       flex-direction: row;
+       align-items:center;
+       justify-content: center;
+     }
+  }
+}
+.images-panel-paint{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.image-icon-paint{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $border-radius-base;
+  width: 128px;
+  height: 128px;
+  border: $border-main;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+.image-paint-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4px;
+  animation: opacityAnimation 1s;
+}

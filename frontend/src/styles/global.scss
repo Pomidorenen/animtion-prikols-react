@@ -1,0 +1,103 @@
+$main-color: rgb(23, 23, 23);
+$second-color: rgb(44, 44, 44);
+$three-color: rgb(255, 255, 255);
+$opacity-color: rgba(255, 255, 255, 0);
+
+$padding-base: 12px;
+$border-radius-base: 8px;
+$margin-base:16px;
+
+$border-main: solid $three-color 2px;
+$border-main-opacity:solid mix($opacity-color, $three-color) 2px;
+$border-second: solid $second-color 2px;
+
+$box-shadow-main:0 0 20px -8px mix($three-color,$opacity-color);
+$box-shadow-second:0 0 0px 8px $three-color;
+
+@keyframes opacityAnimation {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes blur {
+  0%{ filter: blur(2px); }
+  100%{ filter: blur(0px); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.transition{
+  transition: 1s all;
+}
+.absolute-bottom{
+  position: absolute;
+  top:95%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.absolute-left-bottom{
+  position: absolute;
+  left:95%;
+  top:95%;
+  transform:translate(-50%,-50%);
+}
+.event-pointer{
+  pointer-events: visible;
+}
+.cursor-pointer{
+cursor: pointer;
+}
+.opacity{
+  animation: opacityAnimation 1s;
+}
+.w-100{
+  width: 100%;
+}
+.h-100{
+  height: 100vh;
+}
+.container{
+  transform: translateY(40px);
+  margin-left:20%;
+  width: 60%;
+}
+.underline-dot{
+  border-bottom:dashed $second-color;
+}
+.visibility-hide{
+  content-visibility: hidden;
+}
+ .border-rounded{
+   border-radius: $border-radius-base;
+ }
+ .border-dash{
+  border:dashed $second-color 8px;
+}
+.flex{
+   display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.gap-1{
+  gap: 12px;
+}
+.flex-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.flex-column{
+  flex-direction: column;
+}
+.animate-opacity{
+  animation: opacityAnimation 1s;
+}

@@ -1,0 +1,21 @@
+@import "global";
+.navbar{
+  pointer-events: visible;
+  display: flex;
+  gap: 12px;
+
+
+  min-width: auto;
+  max-width: 80%;
+  height: 48px;
+
+  margin-top: -24px;
+
+  background: mix($opacity-color, $second-color);
+  backdrop-filter: blur(10px);
+
+  border-radius:$border-radius-base;
+  border:$border-main-opacity;
+
+  padding: $padding-base;
+}

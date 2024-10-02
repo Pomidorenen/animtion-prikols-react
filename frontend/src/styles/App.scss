@@ -1,0 +1,72 @@
+@import "global";
+@import "photos";
+@import "button";
+@import "navbar";
+@import "watch";
+@import "notes";
+@import "paint";
+@import "battery";
+@import "widget";
+@import "input";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI Light", serif;
+  transition: all 0.375s ease;
+  user-select: none;
+}
+body{
+  background: $main-color;
+  color: $three-color;
+}
+a{
+  color: $three-color;
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+  &:active{
+    color: $second-color;
+  }
+}
+
+.loading-spin{
+  border-bottom:$border-main;
+  border-left:$border-main;
+  border-radius:50%;
+
+  width: 50%;
+  height: 50%;
+
+  animation: 0.375s infinite linear spin;
+}
+.loading-spin-weather{
+  border-bottom:$border-main;
+  border-left:$border-main;
+  border-radius:50%;
+  width: 60px;
+  height: 60px;
+  animation: 0.375s infinite linear spin;
+}
+.portal{
+  position: fixed;
+  pointer-events: none;
+  z-index: 10;
+}
+.footer{
+  min-height: 25vh;
+}
+.header{
+  position: sticky;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: calc(100% - 8px);
+  height: 28px;
+  padding: 4px;
+  background: $second-color;
+
+}
+.margin-top-1{
+  margin-top: 12px;
+}

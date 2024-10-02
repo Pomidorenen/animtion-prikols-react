@@ -1,0 +1,50 @@
+@import "global";
+.battery-icon{
+  --size: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--size) * 128px);
+  height: calc(var(--size) * 16px);
+  font-size: calc(var(--size) * 24px);
+  padding-bottom: $padding-base/1.5;
+  padding-top: $padding-base/1.5;
+
+  border-radius: $border-radius-base;
+  border:solid 2px $three-color;
+  transition: 0s all;
+  &:after{
+    content: "";
+    position: relative;
+    background: $three-color;
+    width: calc(var(--size) * 8px);
+    height: calc(var(--size) * 16px);
+    left: calc(((var(--size) * 8px) + 4px)) ;
+    border-radius:0 $border-radius-base $border-radius-base 0;
+  }
+
+}
+@mixin battery-change {
+  --b:1;
+  width: 100%;
+  height: 100%;
+
+  user-select: none;
+  margin-left:5%;
+  padding-top: $padding-base/2;
+  padding-bottom: $padding-base/2;
+  border-radius: $border-radius-base/2;
+  background: linear-gradient(90deg, mix($three-color,$opacity-color) 0%, mix($three-color,$opacity-color) calc(var((--b)) * 100%), $opacity-color calc(var(--b) * 100%), $opacity-color 100% );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0s all;
+}
+
+.battery-change{
+  @include battery-change;
+  &-charging{
+    @include battery-change;
+    background: linear-gradient(90deg, mix(rgb(138, 255, 138),$opacity-color) 0%, mix(rgb(138, 255, 138),$opacity-color) calc(var((--b)) * 100%), $opacity-color calc(var(--b) * 100%), $opacity-color 100% );
+  }
+}

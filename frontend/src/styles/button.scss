@@ -1,0 +1,75 @@
+@import "global";
+
+@mixin btn{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background:mix($second-color,$opacity-color);
+  padding:$padding-base;
+  border-radius: $border-radius-base;
+  border: $border-main;
+  color: $three-color;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  &:hover{
+    color: $second-color;
+    background:$three-color;
+  }
+}
+.btn{
+  @include btn;
+}
+@mixin btn-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: mix(mix($main-color,$opacity-color),$main-color);
+  border-radius: $border-radius-base;
+
+  width: 48px;
+  height: 48px;
+  &:hover{
+    padding: $padding-base;
+    border: hidden 12px;
+    transform: translateY($padding-base*-2);
+  }
+}
+
+.btn-nav-icon{
+  @include btn-icon;
+  &>img{
+    fill: $three-color;
+  }
+  &-active{
+    @include btn-icon;
+    background-color: $second-color;
+  }
+
+}
+.target-button{
+  position: absolute;
+  top:64px;
+  left: 20px;
+  transform: translateX(4px);
+  width: 20px;
+  height: 4px;
+  background-color: $three-color;
+  border-radius: $border-radius-base;
+  transition: 0.375s all ease-out;
+  animation:opacityAnimation 1s;
+}
+.btn-description-nav{
+  position: absolute;
+  border: $border-main;
+  border-radius: $border-radius-base;
+  background: mix($second-color,$opacity-color );
+  font-size: 12px;
+  padding: $padding-base/2;
+  align-self: center;
+  top:-75%;
+  z-index: 2;
+  transition: 0.2s all;
+  animation: opacityAnimation 0.5s;
+}

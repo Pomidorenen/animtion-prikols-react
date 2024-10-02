@@ -1,0 +1,53 @@
+@import "global";
+.watch-date{
+  display: inline-block;
+  padding-bottom:$padding-base;
+  width: auto;
+  font-size: 72px;
+  font-weight: bold;
+}
+.watch-time{
+  font-size: 120px;
+}
+
+.watch-circle{
+  position: relative;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 8px solid white;
+}
+.watch-arrow{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: white;
+  border-radius:$border-radius-base;
+  width: 60px;
+  height: 12px;
+  transition: 1s all;
+  transform-origin: 0 50%;
+}
+.watch-point-arrow{
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius:50%;
+}
+.weather-container{
+  min-width: 240px;
+  max-width: 360px;
+  min-height: 160px;
+  border-radius: $border-radius-base;
+  border: $border-main-opacity;
+  background: $second-color;
+  padding:$padding-base*2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+}
