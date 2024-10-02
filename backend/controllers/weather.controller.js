@@ -1,5 +1,6 @@
+
 const {OpenWeatherAPI} = require("openweather-api-node");
-const key = "7cb23ddcc62dd7f69dd08e0b9476eadb";
+const key = "need key";
 
 const weatherController = {
     getWeather: async (req, res) => {

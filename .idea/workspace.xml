@@ -4,74 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e868ab2-ab2d-43c7-bfaf-10036b6668b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/3Dcomponents/Box.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Widgets/widget.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/images.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/music.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/paintIcon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/sun.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/three.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/assets/svg/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/loading/spin.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/modal/modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/navigation/iconButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/navigation/navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/navigation/scrollUp.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/photo/addPhoto.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/photo/paintImageButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/photo/photo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/photo/photos.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/portal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/share/battery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/share/headers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/watch/roundClock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/watch/weatherReport.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useBattery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useGeolocation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useRequets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useTimer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/lainding/landing.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/music/music.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/notes/notes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/paint/paint.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/photoGallery/photoGallery..jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/threeScene/threeScene.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/watchPage/watchPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/weather/weatherSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/battery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/notes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/paint.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/photos.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/watch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/styles/widget.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="9e868ab2-ab2d-43c7-bfaf-10036b6668b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/animation-prikos-react" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProblemsViewState">
@@ -103,7 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "20.16.0",
     "javascript.nodejs.core.library.typings.version": "20.16.5",
     "last_opened_file_path": "C:/Users/asus/WebstormProjects/animtion-prikols-react/frontend/src/components/assets/svg",
@@ -226,7 +159,7 @@
       <workItem from="1727345233728" duration="270000" />
       <workItem from="1727470235001" duration="6047000" />
       <workItem from="1727888225481" duration="496000" />
-      <workItem from="1727889183336" duration="297000" />
+      <workItem from="1727889183336" duration="782000" />
     </task>
     <servers />
   </component>
